@@ -1,3 +1,6 @@
 C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\App.OhmCalculator\obj\Debug\App.OhmCalculator.njsprojResolveAssemblyReference.cache
 C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\App.OhmCalculator\obj\Debug\App.OhmCalculator.njsproj.CoreCompileInputs.cache
 C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\App.OhmCalculator\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\liwiz\a\App.OhmCalculator\obj\Debug\App.OhmCalculator.njsprojResolveAssemblyReference.cache
+C:\Users\liwiz\a\App.OhmCalculator\obj\Debug\App.OhmCalculator.njsproj.CoreCompileInputs.cache
+C:\Users\liwiz\a\App.OhmCalculator\bin\Microsoft.NodejsTools.WebRole.dll

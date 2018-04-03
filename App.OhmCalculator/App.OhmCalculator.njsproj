@@ -31,13 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\Components\color-pick.js">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="src\Components\OhmColorSelector.js" />
-    <Compile Include="src\Components\ohmselect.js">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="src\index.js" />
     <Compile Include="webpack.config.js" />
     <Content Include=".babelrc" />

@@ -11,6 +11,4 @@ const title = 'Ohm Calc';
 ReactDOM.render(
     <div>
         <OhmColorSelector />
-    </div>, document.getEle
-    
-    entById('app'));
+    </div>, document.getElementById('app'));
