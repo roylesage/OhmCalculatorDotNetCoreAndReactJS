@@ -1,0 +1,36 @@
+{
+  "name": "app.ohm-calculator",
+  "version": "0.0.0",
+  "description": "App.OhmCalculator",
+  "main": "./src/index.js",
+  "author": {
+    "name": "Roy Rideaux"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react-hot-loader": "^4.0.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.3.0",
+    "react-color": "^2.14.0",
+    "react-dom": "^16.3.0"
+  }
+}

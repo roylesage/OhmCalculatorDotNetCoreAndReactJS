@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59733/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\Svc.OmhCalculator",
+      "launchBrowser": true,
+      "launchUrl": "./index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:59733/"
+    },
+    "Svc.OmhCalculator": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\Svc.OmhCalculator",
+      "launchBrowser": true,
+      "launchUrl": "index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:59734/"
+    }
+  }
+}

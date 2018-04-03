@@ -1,0 +1,11 @@
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\bin\Debug\netcoreapp2.0\Svc.OmhCalculator.deps.json
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\bin\Debug\netcoreapp2.0\Svc.OmhCalculator.runtimeconfig.json
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\bin\Debug\netcoreapp2.0\Svc.OmhCalculator.runtimeconfig.dev.json
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\bin\Debug\netcoreapp2.0\Svc.OmhCalculator.dll
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\bin\Debug\netcoreapp2.0\Svc.OmhCalculator.pdb
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\obj\Debug\netcoreapp2.0\Svc.OmhCalculator.csprojResolveAssemblyReference.cache
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\obj\Debug\netcoreapp2.0\Svc.OmhCalculator.csproj.CoreCompileInputs.cache
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\obj\Debug\netcoreapp2.0\Svc.OmhCalculator.AssemblyInfoInputs.cache
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\obj\Debug\netcoreapp2.0\Svc.OmhCalculator.AssemblyInfo.cs
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\obj\Debug\netcoreapp2.0\Svc.OmhCalculator.dll
+C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\Svc.OmhCalculator\obj\Debug\netcoreapp2.0\Svc.OmhCalculator.pdb
