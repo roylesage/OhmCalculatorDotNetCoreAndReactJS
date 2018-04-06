@@ -1,0 +1,10 @@
+C:\Users\liwiz\a\Svc.OhmCalculator\bin\Debug\netcoreapp2.0\Svc.OhmCalculator.deps.json
+C:\Users\liwiz\a\Svc.OhmCalculator\bin\Debug\netcoreapp2.0\Svc.OhmCalculator.runtimeconfig.json
+C:\Users\liwiz\a\Svc.OhmCalculator\bin\Debug\netcoreapp2.0\Svc.OhmCalculator.runtimeconfig.dev.json
+C:\Users\liwiz\a\Svc.OhmCalculator\bin\Debug\netcoreapp2.0\Svc.OhmCalculator.dll
+C:\Users\liwiz\a\Svc.OhmCalculator\bin\Debug\netcoreapp2.0\Svc.OhmCalculator.pdb
+C:\Users\liwiz\a\Svc.OhmCalculator\obj\Debug\netcoreapp2.0\Svc.OhmCalculator.csproj.CoreCompileInputs.cache
+C:\Users\liwiz\a\Svc.OhmCalculator\obj\Debug\netcoreapp2.0\Svc.OhmCalculator.AssemblyInfoInputs.cache
+C:\Users\liwiz\a\Svc.OhmCalculator\obj\Debug\netcoreapp2.0\Svc.OhmCalculator.AssemblyInfo.cs
+C:\Users\liwiz\a\Svc.OhmCalculator\obj\Debug\netcoreapp2.0\Svc.OhmCalculator.dll
+C:\Users\liwiz\a\Svc.OhmCalculator\obj\Debug\netcoreapp2.0\Svc.OhmCalculator.pdb

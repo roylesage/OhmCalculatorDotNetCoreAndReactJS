@@ -7,6 +7,9 @@
     <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\15.6.0\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\15.6.0\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.targets')" />
     <Import Project="$(NuGetPackageRoot)xunit.core\2.3.1\build\xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.3.1\build\xunit.core.targets')" />
+    <Import Project="$(NuGetPackageRoot)nodejsmsbuild\1.0.8\build\NodeJSMsBuild.targets" Condition="Exists('$(NuGetPackageRoot)nodejsmsbuild\1.0.8\build\NodeJSMsBuild.targets')" />
+    <Import Project="$(NuGetPackageRoot)node.msbuild\1.0.2\build\Node.MSBuild.targets" Condition="Exists('$(NuGetPackageRoot)node.msbuild\1.0.2\build\Node.MSBuild.targets')" />
+    <Import Project="$(NuGetPackageRoot)node.msbuild.npm\1.0.0\build\Node.MSBuild.Npm.targets" Condition="Exists('$(NuGetPackageRoot)node.msbuild.npm\1.0.0\build\Node.MSBuild.Npm.targets')" />
     <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.targets" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.targets')" />
   </ImportGroup>
 </Project>

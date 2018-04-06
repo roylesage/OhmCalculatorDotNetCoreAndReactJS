@@ -4,9 +4,11 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>App.OhmCalculator</Name>
     <RootNamespace>App.OhmCalculator</RootNamespace>
-    <ScriptArguments>start</ScriptArguments>
-    <NodeExePath>
-    </NodeExePath>
+    <ScriptArguments>
+    </ScriptArguments>
+    <NodeExePath>C:\Program Files\nodejs\node.exe</NodeExePath>
+    <NodejsPort>
+    </NodejsPort>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -14,7 +16,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a5192596-5840-4dc6-a02f-5851a5be6aa2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\index.js</StartupFile>
+    <StartupFile>./server.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -22,7 +24,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <StartWebBrowser>True</StartWebBrowser>
+    <StartWebBrowser>False</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +33,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="server.js">
+      <SubType>Code</SubType>
+      <Publish>False</Publish>
+    </Compile>
+    <Compile Include="src\Components\OhmBottomNav.js" />
+    <Compile Include="src\Components\OhmAppContainer.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\Components\OhmColorSelector.js" />
     <Compile Include="src\index.js" />
     <Compile Include="webpack.config.js" />
@@ -39,6 +49,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="dist\index.html" />
+    <Content Include="launch.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>

@@ -12,3 +12,17 @@ C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\ChallengeUnitTest\obj\Debug\net
 C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.AssemblyInfo.cs
 C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.dll
 C:\Users\liwiz\source\repos\ChallengeNetCoreIntf\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.pdb
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\ChallengeUnitTest.deps.json
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\ChallengeUnitTest.runtimeconfig.json
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\ChallengeUnitTest.runtimeconfig.dev.json
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\ChallengeUnitTest.dll
+C:\Users\liwiz\a\ChallengeUnitTest\bin\Debug\netcoreapp2.0\ChallengeUnitTest.pdb
+C:\Users\liwiz\a\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\liwiz\a\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\liwiz\a\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.AssemblyInfoInputs.cache
+C:\Users\liwiz\a\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.AssemblyInfo.cs
+C:\Users\liwiz\a\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.dll
+C:\Users\liwiz\a\ChallengeUnitTest\obj\Debug\netcoreapp2.0\ChallengeUnitTest.pdb

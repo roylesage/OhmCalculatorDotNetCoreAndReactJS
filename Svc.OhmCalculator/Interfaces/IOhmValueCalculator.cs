@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Svc.OmhCalculator.Interfaces
+namespace Svc.OhmCalculator.Interfaces
 {
     public interface IOhmValueCalculator
     {

@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/Svc.OhmCalculator",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:59733/",
       "sslPort": 0
@@ -9,8 +13,8 @@
   },
   "profiles": {
     "IIS Express": {
-      "commandName": "Project",
-      "workingDirectory": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\Svc.OmhCalculator",
+      "commandName": "IIS",
+      "workingDirectory": "./",
       "launchBrowser": true,
       "launchUrl": "./index.html",
       "environmentVariables": {
@@ -20,9 +24,9 @@
     },
     "Svc.OmhCalculator": {
       "commandName": "Project",
-      "workingDirectory": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\Svc.OmhCalculator",
+      "workingDirectory": ".",
       "launchBrowser": true,
-      "launchUrl": "index.html",
+      "launchUrl": "./index.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

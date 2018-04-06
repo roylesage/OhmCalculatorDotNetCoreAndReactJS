@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Svc.OmhCalculator.Interfaces;
-using Svc.OmhCalculator.HelperUtilities;
+using Svc.OhmCalculator.Interfaces;
+using Svc.OhmCalculator.HelperUtilities;
+using Microsoft.AspNetCore.Cors;
+ 
 
 namespace Svc.OhmCalculator.Controllers
 {
     [Route("api/[controller]")]
-    public class OmhSvcController : Controller
+    [EnableCors("AllAccess")]
+    public class OhmSvcController : Controller
     {
-        public OmhSvcController()
+        public OhmSvcController()
         {
 
         }
@@ -20,7 +23,7 @@ namespace Svc.OhmCalculator.Controllers
         [Route("GetOhmByColorCombo")]
         public int GetOhmByColorCombo(string bandAColor, string bandBColor, string bandCColor, string bandDColor)
         {
-            OhmCalculatorHelper helper = new OhmCablculatorHelper();
+            OhmCalculatorHelper helper = new OhmCalculatorHelper();
             return helper.CalculateOhmValue(bandAColor, bandBColor, bandCColor, bandDColor);
         }
 

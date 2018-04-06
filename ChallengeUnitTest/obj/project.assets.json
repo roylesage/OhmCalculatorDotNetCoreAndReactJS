@@ -609,6 +609,29 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Node.MSBuild/1.0.2": {
+        "type": "package",
+        "build": {
+          "build/Node.MSBuild.props": {},
+          "build/Node.MSBuild.targets": {}
+        }
+      },
+      "Node.MSBuild.Npm/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Node.MSBuild": "1.0.2"
+        },
+        "build": {
+          "build/Node.MSBuild.Npm.props": {},
+          "build/Node.MSBuild.Npm.targets": {}
+        }
+      },
+      "NodeJSMsBuild/1.0.8": {
+        "type": "package",
+        "build": {
+          "build/NodeJSMsBuild.targets": {}
+        }
+      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -2556,6 +2579,45 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Node.MSBuild/1.0.2": {
+      "sha512": "NoLaLovwJ+INFJ3SZTOT6CIdeyyRxSWTex+1ncY9YXZaVsuGU1ykAEAx4km1d3trKTCC9/DsQVLF08va4HDUXA==",
+      "type": "package",
+      "path": "node.msbuild/1.0.2",
+      "files": [
+        "build/Node.MSBuild.props",
+        "build/Node.MSBuild.targets",
+        "node.msbuild.1.0.2.nupkg.sha512",
+        "node.msbuild.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Node.MSBuild.Npm/1.0.0": {
+      "sha512": "T2uk2Z0jgAjMWs1RWS4NnLOYgrsjqwMY4zyadNmhH8DHjwpXhosiHL6GH0iJ4PnKprioLUQz5+1kzvTo6Tbv8A==",
+      "type": "package",
+      "path": "node.msbuild.npm/1.0.0",
+      "files": [
+        "build/Node.MSBuild.Npm.props",
+        "build/Node.MSBuild.Npm.targets",
+        "node.msbuild.npm.1.0.0.nupkg.sha512",
+        "node.msbuild.npm.nuspec",
+        "readme.txt"
+      ]
+    },
+    "NodeJSMsBuild/1.0.8": {
+      "sha512": "T5CqIZ2Opxwy8jXocmrVdsf6gzVZj7qbpH2/giPg48iUcxyauU99i3L7Wa3zclDuoX4dAOmZlXPuUTDDhtw6Ew==",
+      "type": "package",
+      "path": "nodejsmsbuild/1.0.8",
+      "files": [
+        "build/NodeJSMsBuild.targets",
+        "content/DelFolder.bat",
+        "content/Gruntfile.js",
+        "content/gulpfile.js",
+        "nodejsmsbuild.1.0.8.nupkg.sha512",
+        "nodejsmsbuild.nuspec",
+        "readme.txt",
+        "tools/Install.ps1"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -5708,6 +5770,8 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NET.Test.Sdk >= 15.6.0",
       "Microsoft.NETCore.App >= 2.0.0",
+      "Node.MSBuild.Npm >= 1.0.0",
+      "NodeJSMsBuild >= 1.0.8",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
@@ -5719,11 +5783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\ChallengeUnitTest\\ChallengeUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\liwiz\\a\\ChallengeUnitTest\\ChallengeUnitTest.csproj",
       "projectName": "ChallengeUnitTest",
-      "projectPath": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\ChallengeUnitTest\\ChallengeUnitTest.csproj",
+      "projectPath": "C:\\Users\\liwiz\\a\\ChallengeUnitTest\\ChallengeUnitTest.csproj",
       "packagesPath": "C:\\Users\\liwiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\liwiz\\source\\repos\\ChallengeNetCoreIntf\\ChallengeUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\liwiz\\a\\ChallengeUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5761,6 +5825,14 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Node.MSBuild.Npm": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "NodeJSMsBuild": {
+            "target": "Package",
+            "version": "[1.0.8, )"
           },
           "xunit": {
             "target": "Package",

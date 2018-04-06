@@ -22,7 +22,13 @@ namespace Svc.OmhCalculator
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {   
+            services.AddCors(options => {
+                options.AddPolicy("AllAccess", builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddMvc();
         }
 
@@ -33,7 +39,7 @@ namespace Svc.OmhCalculator
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("AllAccess");
             app.UseMvc();
         }
     }
